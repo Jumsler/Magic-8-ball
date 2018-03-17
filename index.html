@@ -11,8 +11,12 @@ style="border:1px solid #c3c3c3;">
     <script>
             var canvas = document.getElementById("myCanvas");
             var ctx = canvas.getContext("2d");
-            ctx.fillStyle = "#FF0000";
-            ctx.fillRect(0,0,150,150);
+
+            ctx.fill(0, 0, 0);
+            ctx.ellipse(200, 200, 375, 375);
+            ctx.fill(93, 73, 161);
+            ctx.triangle(205, 91, 307, 281, 96, 280);
+            ctx.fill(255, 255, 255);
             fill(0, 0, 0);
             ellipse(200, 200, 375, 375);
             fill(93, 73, 161);

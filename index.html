@@ -4,7 +4,11 @@
         <title>M8B</title>
     </head>
     <body>
-        <script>
+        <canvas id="myCanvas" width="200" height="100"
+style="border:1px solid #c3c3c3;">
+</canvas>
+    </body>
+    <script>
             var canvas = document.getElementById("myCanvas");
             var ctx = canvas.getContext("2d");
             ctx.fillStyle = "#FF0000";
@@ -64,8 +68,4 @@
               text("Possibly", 140, 250);
             }
         </script>
-        <canvas id="myCanvas" width="200" height="100"
-style="border:1px solid #c3c3c3;">
-</canvas>
-    </body>
 </html>
